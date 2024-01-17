@@ -1,0 +1,84 @@
+                                                                                 html-5
+
+
+
+1>What are the new tags added in HTML5? 
+=<article>: Represents a self-contained piece of content that could be distributed and reused independently, such as a news article or blog post.
+
+<aside>: Represents content that is tangentially related to the content around it, such as a sidebar or pull quote.
+
+<details> and <summary>: <details> represents a disclosure widget from which the user can obtain additional information or controls, and <summary> represents a summary or label for the content in a <details> element
+
+<figcaption>: Represents a caption or legend for a <figure> element, typically used with images or diagrams.
+<figure>: Represents any content that is referenced from the main content, such as images, charts, or videos
+<footer>: Represents a footer section typically containing metadata, copyright information, and links to related documents
+<header>: Represents a header section typically containing introductory content, such as headings, logos, and navigation
+<main>: Represents the main content of the document, excluding headers, footers, and sidebars
+<mark>: Represents text highlighted for reference or notation purposes
+<nav>: Represents a navigation menu, typically containing links to other pages or sections of the website.
+
+2> How to embed audio and video in a webpage?
+=Embedding Audio:
+Use the <audio> element to embed audio files. The controls attribute adds playback controls, allowing users to play, pause, and adjust volume.
+controls: Adds playback controls.
+<source>: Specifies the audio file source and its type. You can provide multiple <source> elements for different formats to ensure compatibility across browsers
+Embedding Video:
+Use the <video> element to embed video files. Similar to <audio>, the controls attribute adds playback controls.
+controls: Adds playback controls.
+width: Specifies the width of the video player.
+
+3> Semantic element in HTML5? 
+=<header>:
+
+Represents the header of a section or page.
+Typically contains headings, logos, and navigation.
+
+<nav>:
+
+Represents a navigation menu.
+Contains links to other pages or sections of the website.
+
+<main>:
+
+Represents the main content of the document.
+Excludes headers, footers, and sidebars
+
+<article>:
+
+Represents a self-contained piece of content.
+Can be distributed and reused independently, like a news article or blog post.
+
+<section>:
+
+Represents a generic section of content.
+Often has a heading and groups related content together.
+
+<aside>:
+
+Represents content that is tangentially related to the content around it.
+Often used for sidebars or additional information.
+
+footer>:
+
+Represents a footer section.
+Typically contains metadata, copyright information, and links to related documents.
+
+4>• Canvas and SVG tags 
+=<canvas> Tag:
+Purpose:
+The <canvas> element is used for rendering bitmap graphics, allowing for dynamic, scriptable rendering of 2D shapes, images, and animations.
+Drawing Model:
+It provides a raster graphics API through JavaScript, where you can draw directly on the canvas pixel by pixel.
+Usage:
+Ideal for dynamic graphics and animations.
+
+<svg> Tag:
+Purpose:
+
+The <svg> element is used for rendering scalable vector graphics (SVG), which are resolution-independent and can be scaled without loss of quality.
+Drawing Model:
+
+SVG uses XML-based markup to define vector shapes, paths, and text. Graphics in SVG are described mathematically.
+Usage:
+
+Ideal for static graphics, illustrations, and diagrams. It's suitable for scenarios where scalability and clarity are important.
